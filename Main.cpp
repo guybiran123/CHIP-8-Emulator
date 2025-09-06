@@ -7,9 +7,18 @@
 #include "Constants.h"
 #include "TimersHandling.h"
 
-int main() {
+int main(int argc, char* argv[]) {
 
-	Memory memory{ EXECUTION_FILE_PATH };
+	std::string rom_path;
+
+	if (argc > 1) {
+		rom_path = argv[1]; // ROM path passed as argument
+	}
+	else {
+		rom_path = DEFAULT_ROM_PATH; // default ROM
+	}
+
+	Memory memory{ rom_path };
 	Stack stack{ };
 	Display display{ };
 	uint16_t PC{ 512 };

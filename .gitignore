@@ -26,6 +26,3 @@ Release/
 # Temporary files / logs
 *.log
 *.tmp
-
-# Ignore ROM/test files if you don't want them in Git
-*.ch8
