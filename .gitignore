@@ -1,0 +1,31 @@
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.vcxproj*
+*.ncb
+*.sdf
+*.opendb
+*.VC.db
+
+# Build directories
+x64/
+bin/
+build/
+Debug/
+Release/
+
+# Executables and object files
+*.exe
+*.obj
+*.o
+*.dll
+*.lib
+*.out
+
+# Temporary files / logs
+*.log
+*.tmp
+
+# Ignore ROM/test files if you don't want them in Git
+*.ch8
