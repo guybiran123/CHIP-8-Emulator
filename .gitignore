@@ -1,12 +1,14 @@
-# Visual Studio files
+# Ignore Visual Studio user-specific files and workspace settings
 .vs/
 *.suo
 *.user
-*.vcxproj*
 *.ncb
 *.sdf
 *.opendb
 *.VC.db
+
+# Keep project files (.vcxproj and .filters) so solution can load
+# *.vcxproj*   <- removed this line
 
 # Build directories
 x64/
