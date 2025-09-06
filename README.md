@@ -51,17 +51,17 @@ Make sure SFML is installed on your system and discoverable by CMake (or provide
 ---
 
 ## Run / Usage
-From a terminal (or Visual Studio Debug command arguments), run:
+You can run the emulator either from **Visual Studio** or directly in the **Command Prompt**.
 
+
+If you run the program manually from x64/Debug/, you need to adjust the path to the ROMs folder:
 ```bash
-# run default ROM shipped in repo
-./chip8-emulator
+Chip-8.exe ..\..\roms\pong.ch8
+```
 
-# run a specific ROM (recommended)
-./chip8-emulator roms/pong.ch8
-
-# or provide a full path
-./chip8-emulator C:/path/to/SomeGame.ch8
+Alternatively, you can provide the full path to a ROM:
+```bash
+Chip-8.exe C:\Users\YourName\Path\To\CHIP-8-Emulator\roms\pong.ch8
 ```
 
 The program accepts a single optional argument: the path to a `.ch8` ROM file. If none is provided, it loads the default ROM from `roms/`.
