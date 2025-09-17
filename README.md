@@ -36,18 +36,6 @@ A small and portable **CHIP-8 emulator** written in modern C++ using **SFML** fo
 
 > **Tip:** If SFML is not bundled in the solution, install SFML and update the project properties to point to SFML `include` and `lib` directories.
 
-### Cross-platform with CMake & g++
-```bash
-mkdir build
-cd build
-cmake ..
-cmake --build .
-# then run the produced executable
-./chip8-emulator ../roms/IBM_Logo.ch8
-```
-
-Make sure SFML is installed on your system and discoverable by CMake (or provide SFML paths to CMake).
-
 ---
 
 ## Run / Usage
