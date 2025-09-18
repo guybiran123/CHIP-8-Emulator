@@ -93,5 +93,20 @@ Use these keys on your keyboard to control the emulator.
 
 ---
 
+## Examples Screenshots
+
+### Conncet 4:
+
+![Connect 4](./Screenshots/connect4_screenshot.png)
+
+### X Mirror:
+
+![X Mirror](./Screenshots/x-mirror_screenshot.png)
+
+### Pong:
+
+![Pong](./Screenshots/pong_screenshot.png)
+
+
 **Enjoy**
 

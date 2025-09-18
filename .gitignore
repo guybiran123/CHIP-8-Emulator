@@ -28,3 +28,6 @@ Release/
 # Temporary files / logs
 *.log
 *.tmp
+
+# screenshots
+*.png
